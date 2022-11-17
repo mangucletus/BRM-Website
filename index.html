@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
+  <title>BRM</title>
             <!-- google font -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
            <!-- css stylesheets -->
@@ -20,10 +20,10 @@
 <body>
 
   <section id="title">
-    <div class="container-fluid">
+    <div id="home" class="container-fluid">
        <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Tindog</a>
+        <a class="navbar-brand" href="#"><img class="official-logo" src="./img/official logo.jpg"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,13 +31,22 @@
         
         <ul class = "navbar-nav ms-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#footer"> Contact</a>
+                <a class="nav-link" href="#title"> Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#pricing"> Pricing</a>
+              <a class="nav-link" href="#features"> About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#call-to-action"> Download</a>
+              <a class="nav-link" href="#call-to-action"> Donate/Partner</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#footer"> Contact</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Programs</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#pricing"> Blog</a>
             </li>
         </ul>
         </div>
@@ -45,12 +54,20 @@
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+          <h1 class="big-heading">BRM Program</h1>
+          <p class="head-paragraph">....helping deprived but brilliant children, girls and women  to unleash their potentials</p>
+          
+          <button type="button" class="btn btn-outline-light btn-lg download-button"> Join Us</button>
         </div>
         <div class="col-lg-6">
-          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              
+              <div class=" carousel-item">
+                <img src="./img/talks/1.jpg" class="title-image d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -60,21 +77,24 @@
   <!-- Features -->
 
   <section id="features">
+    <p>Basic Resilience Mentorship (BRM) program is a non-profit organization that supports deprived but brilliant children, girls and women  to unleash their potentials in the Savannah Region, Ghana</p>
     <div class="row">
       <div class="feature-box col-lg-4">
         <i class=" icon fa-regular fa-circle-check fa-4x"></i>
-        <h3 class="feature-title">Easy to use.</h3>
-        <p>So easy to use, even your dog could do it.</p>
+        <h3 class="feature-title">Vision</h3>
+        <p>A society where everyone has equal opportunities to achieve their dreams</p>
       </div>
       <div class="feature-box col-lg-4">
         <i class=" icon fa-solid fa-bullseye fa-4x"></i>
-        <h3 class="feature-title">Elite Clientele</h3>
-        <p>We have all the dogs, the greatest dogs.</p>
+        <h3 class="feature-title">Mission</h3>
+        <p>To build a community that liberate the less privileged from hardship through mentorship in educaction
+          and skills training 
+        </p>
       </div>
       <div class="feature-box col-lg-4 ">
         <i class=" icon fa-solid fa-heart fa-4x"></i>
-        <h3 class="feature-title">Guaranteed to work.</h3>
-        <p>Find the love of your dog's life or your money back.</p>
+        <h3 class="feature-title">Core Values</h3>
+        <p>Leadership, SDG1 & SDG4 focused, Team Work, Community Transformation</p>
       </div>
     </div>
   </section>
@@ -82,18 +102,34 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
+    <h1 style="color: black; padding-top: 10px">Our Achievement so far</h1>
 
     <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
+          <h2 class="testimonial-text">Creating awareness and educating students and children on Covid-19 pandemic, sharing nose mask and hand sanitizers</h2>
+          <img class="testimonials-image" src="./img/covid/4.jpg" alt="dog-profile">
+          <em>Tanigna D/A Primary & JHS</em>
         </div>
         <div class="carousel-item">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>
+          <h2 class="testimonial-text">Involving parents to help mentor and nurture our mentees through house visitations and intensive guidance </h2>
+          <img class="testimonials-image" src="./img/home-visits/4.jpg" alt="lady-profile">
+          <em>Jentilpe, Sawla, Kakiasi</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Donating makerbords and markers to enhance easier teaching and learning among teachers and students</h2>
+          <img class="testimonials-image" src="./img/support-and-awards/1.jpg" alt="lady-profile">
+          <em>Basic Schools </em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Educating students and our mentees on Adolescent Reproductive health, child Rights, time management and many more</h2>
+          <img class="testimonials-image" src="./img/talks/1.jpg" alt="lady-profile">
+          <em>Basic Schools</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text"> Organizes Quiz competitions among these schools to motivate and push our mentees to learn harder to acheiving their live goals</h2>
+          <img class="testimonials-image" src="./img/quiz/5.jpg" alt="lady-profile">
+          <em>Basic Schools</em>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
@@ -108,33 +144,35 @@
   </section>
 
   <!-- Press -->
-
+<!-- 
   <section id="press">
     <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
     <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-  </section>
+  </section> -->
 
   <!-- Pricing -->
 
   <section id="pricing">
 
-    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <h2 class="section-heading">Read more on our outreach </h2>
+    <p>Identify With Us, If you love a welcoming community of great impact like we do, we're more than excited to take you in.</p>
 
     <div class="row">
       <div class=" pricing-column col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>Chihuahua</h3>
+            <h3>Quiz Competitions</h3>
           </div>
           <div class="body">
-            <h2 class="price-text">Free</h2>
-            <p>5 Matches Per Day</p>
-            <p>10 Messages Per Day</p>
-            <p>Unlimited App Usage</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            
+            <p class="blog-post">It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+               its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed 
+               to using 'Content here, content here', making it look like readable English.......
+              </p>
+            
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Read more</button>
           </div>
         </div>
       </div>
@@ -142,14 +180,14 @@
       <div class=" pricing-column col-lg-4 col-md-6">
         <div class="card">
           <div class="card-header">
-            <h3>Labrador</h3>
+            <h3>Women Skills Training</h3>
           </div>
           <div class="body">
-            <h2 class="price-text">$49 / mo</h2>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            <p class="blog-post">It is a long established fact that a reader will be distracted by the readable content of a page when looking at 
+              its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed 
+              to using 'Content here, content here', making it look like readable English.........
+            </p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Read more</button>
           </div>
         </div>
       </div>
@@ -157,14 +195,14 @@
       <div class=" pricing-column col-lg-4 col-md-12">
         <div class="card">
           <div class="card-header">
-            <h3>Mastiff</h3>
+            <h3>Girl-Child Hygiene</h3>
           </div>
           <div class="body">
-            <h2 class="price-text">$99 / mo</h2>
-            <p>Pirority Listing</p>
-            <p>Unlimited Matches & Messages</p>
-            <p>Unlimited App Usage</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>    
+            <p class="blog-post">It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+               its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                to using 'Content here, content here', making it look like readable English.
+              </p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Read more</button>    
           </div>
         </div>
       </div>
@@ -174,20 +212,21 @@
   <!-- Call to Action -->
 
   <section id="call-to-action">
-      <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
-      <button class="btn btn-dark btn-lg download-button" type="button"><i class="fa-brands fa-apple"></i> Download</button>
-      <button class="btn btn-light btn-lg download-button" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
+      <h3 class="big-heading">Be a Partner or Sponsor</h3>
+      <p style="color: white">Be a sponsor for our events via a donation or Partner with our organisation to reach more deprived children, girls and women in the Savannah Region, Ghana</p>
+      <button class="btn btn-dark btn-lg download-button" type="button"> <a style="text-decoration:none" href="contact.html">BE A PARTNER</a></button>
+      <button class="btn btn-light btn-lg download-button" type="button"><a style="text-decoration:none" href="donate-partner.html"> BE A DONOR</a></button>
   </section>
 
 
   <!-- Footer -->
 
   <footer id="footer">
-    <i class="social-icon fa-brands fa-twitter"></i>
-    <i class="social-icon fa-brands fa-facebook"></i>
-    <i class="social-icon fa-brands fa-instagram"></i>
-    <i class="social-icon fa-solid fa-envelope"></i>
-    <p>© Copyright TinDog</p>
+    <a href="https://twitter.com/BRMprogram?t=aSH-a3IaYtStIinxxNiIYA&s=08"><i class="social-icon fa-brands fa-twitter" ></i></a>
+    <a href="https://www.facebook.com/BasicResilienceMentorshipProgram"><i class="social-icon fa-brands fa-facebook"></i></a>
+    </i><a href="#"><i class="social-icon fa-brands fa-instagram"></i></a>
+    <a href="contact.html"><i class="social-icon fa-solid fa-envelope"></i></a>
+    <p>All right reserved. Basic Resilience Mentorship Program. 2022 </p>
 
   </footer>
 

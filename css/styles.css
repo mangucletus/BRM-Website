@@ -3,6 +3,24 @@ body{
     text-align: center;
 }
 
+.blog-post{
+    text-align: left;
+    margin: 5px;
+}
+
+
+.official-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.head-paragraph{
+    color: #fff;
+}
+.home-image{
+    width: 300px;
+    height: 400px;
+}
 /* headings */
 .big-heading{
     font-family: "Montserrat-Black";
@@ -33,7 +51,7 @@ p{
     text-align: left;
 }
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 3% 10% 7%;
 }
 
 /* navigaton bar */
@@ -60,10 +78,9 @@ p{
 
 /* title image */
 .title-image{
-    width: 60%;
-    transform: rotate(25deg);
-    right: 30%;
-    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
 }
 
 /* features section */
@@ -97,7 +114,7 @@ p{
     margin: 20px;
 }
 .carousel-item{
-    padding: 7% 15%;
+    padding: 3% 7%;
 }
 .testimonial-text{
     font-size: 3rem;
@@ -140,6 +157,9 @@ p{
     padding: 7% 15%;
 }
 .social-icon{
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
     margin: 20px 10px;
 }
 
